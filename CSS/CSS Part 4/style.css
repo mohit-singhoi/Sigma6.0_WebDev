@@ -1,0 +1,193 @@
+/* div{
+    margin-left: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.2); 
+    background-color: #4dffdddd;
+       transition :1s 1s;   
+      Transition shorthand : prperty name |duration| timimg fun| delay 
+      transition-duration: 1s ;
+      transition-delay: 1s;
+      transition-timing-function: ease-;
+} */
+
+/* #opacity{
+    opacity: 0.8;
+    background-color: #a6fd2ddd;
+   
+} */
+
+/* button{
+    
+    background-color: white;
+    color : black;
+    margin-left: 5px;
+    text-align: center;
+}
+h2,h3{
+    margin-left: 5px;
+} */
+
+/* div:hover{
+    background-color: red;
+    transition: 1s;   
+  
+     border-radius: 50%;
+} */
+
+
+/* // CSS Transition */
+
+/* .transition{
+    height : 100px;
+    width: 100px;
+    background-color: green;
+    margin : 0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+
+}
+.transition:hover{
+    margin-top :400px;
+    background-color: pink;
+} */
+
+/* CSS Transform */
+/* section{
+    margin-top: 100px;
+
+} */
+
+/* div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border : 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    vertical center
+    justify-content: center;
+    horizontal center
+
+    box-shadow: 2px 2px 8px black;
+    margin :0 auto;
+
+} */
+
+/* div:nth-of-type(2n){
+    background-color: #f7db6a;
+
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+} */
+
+/*
+1. transform : rorate means rotate the element
+2. transform : scale means multiple times of the element in x or y axix also
+3. transform : translate (2 parameter ) means apply effect on x , y axix to go elemnt right or left or top or down
+*/
+
+/* #one{ 
+transform :rotate(45deg);
+
+}
+
+#two{
+    transform: scale(0.5,2);
+    transform : scaley(2)
+    transform : scaleX(0.5)
+}
+
+#three{
+    transform:translate(100px , 100px)
+    transform:translate(-100px);
+} */
+
+
+/* Background Image */
+/* div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin:10px auto;
+    text-align: center;
+    background-image: url("/images/Mango.jpeg");
+    background-size: contain;
+    background-size: cover;
+    padding-top: 5px;
+    color: black;
+
+    
+} */
+
+ /* creating a card hover effect */
+/* .card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px black;
+    transition: 1s;
+
+   
+}
+
+.desc{
+    padding: 0 0 2px  2px;
+}
+
+img{
+   width: 60%; 
+   border-radius: 5px 5px 0 0;
+}
+
+.card:hover{
+box-shadow: 0 8px 16px green;
+} */
+
+/* Position */
+
+div{
+    height: 100px;
+    width:100px;
+    background-color: green;
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: pink;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: gray;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+#fixed{
+     background-color: lightgreen;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+
+}

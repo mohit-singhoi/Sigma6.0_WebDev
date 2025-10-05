@@ -1,0 +1,149 @@
+/* Universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+    h3{
+        background-color: antiquewhite !important;
+    } 
+}
+/* h3{
+    color: purple;
+} */
+ /*Element Selector */
+h1,h3{
+    color: #b92b27;
+    /* background-color: yellow; */
+}
+
+/*id Selector */
+#login{
+    background-color: white;
+    color: #000;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/*Class Selector*/
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+/* Descendant selector*/
+.post a{
+color: purple;
+background-color: yellow;
+}
+
+/*Three level styling*/
+nav ul li{
+    color: hotpink;
+
+}
+
+
+/*Four level styling*/
+nav ul li a{
+    color: rgb(40, 70, 200);
+
+}
+
+/* Adjacent sibling combinator */
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote +button{
+    background-color: cornflowerblue;
+}
+
+/*Child Combinator*/
+div>input{
+    background-color:rgb(181, 224, 224) ;
+    color: #000;
+}
+
+/*Attribute selector*/
+input[type="text"]{
+    color: blue;
+}
+
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* p[class~="post"]{
+    background-color:#ffa;
+} */
+
+/* div[id="myid"] p{
+   color: green;
+} */
+
+#myid p{
+    color: green;
+}
+
+/*Pseudo class */
+/* :hover */
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+h3:hover{
+    text-decoration: none;
+    /* text-decoration: overline; */
+}
+
+/* :active */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* :Checked */
+
+
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+
+/* nth_of_type */
+div:nth-of-type(1){
+    background-color: blanchedalmond;
+}
+
+
+/* Pseudo Element */
+/* ::first-letter */
+h1::first-letter{
+    font-size:larger;
+    color: green;
+}
+/* ::first-line */
+p::first-line{
+    color: purple;
+}
+/* ::selection */
+p::selection{
+    background-color: rgb(199,192,58);
+}
+
+/* Cascade Algorithm */
+h3{
+    background-color: green;
+} 

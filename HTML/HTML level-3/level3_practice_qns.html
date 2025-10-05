@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Level 3 Practice Questions</title>
+</head>
+
+<body>
+    <h3> Q.1 Create a following table</h3>
+    <div style="background-color: black; color:white;width:200px;padding:5px">
+        <table border="2px solid  White">
+            <caption><b>Student information</b></caption>
+            <tr>
+                <th rowspan="6">info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mimbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+
+    <h3>Q.2 Create a Form</h3>
+    <form action="/server">
+        <label for="name">Name :</label>
+
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+        <br> <br>
+        <label for="sex">Sex :</label>
+
+        <input type="radio" name="sex" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female">
+        <label for="female">Female</label>
+        <br> <br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option>Select Option</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Pakistan</option>
+            <option>China</option>
+            <option>UK</option>
+            <option>Russia</option>
+            <option>Japan</option>
+        </select>
+        <br><br>
+        <label>Message :</label><br>
+        <textarea name="message" id="message" rows="5"></textarea>
+        <br><br>
+        <input type="checkbox" id="check" name="check" />
+        <label for="check">Subscribe?</label>
+        <br> <br>
+        <button>Submit</button>
+
+
+    </form>
+    <br>
+    <br>
+    <h3>Q.3 Create a Feedback Form</h3>
+    <form action="/server">
+        <h2>Feedback Form</h2>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="name" id name>
+
+            <br><br>
+            <label for="mail">Email :</label>
+            <input type="email" name="mail" id="mail">
+
+            <br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" rows="5"></textarea>
+            <br>
+        </div>
+        <div>
+            <h4>Rate us out of 5 :</h4>
+
+            <input type="radio" id="one" name="rating">
+            <label for="one">1</label><br>
+            <input type="radio" id="two" name="rating">
+            <label for="two">2</label><br>
+            <input type="radio" id="three" name="rating">
+            <label for="three">3</label><br>
+            <input type="radio" id="four" name="rating">
+            <label for="four">4</label><br>
+            <input type="radio" id="five" name="rating">
+            <label for="five">5</label>
+            <br><br>
+        </div>
+        <button>Send your Message!</button>
+
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>

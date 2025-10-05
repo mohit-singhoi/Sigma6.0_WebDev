@@ -1,0 +1,74 @@
+/* CSS Chapter 1*/
+/* h1{
+    color: Red;
+    background: #000;
+}
+h2{
+    color: pink;
+    background-color: gray;
+}
+h3{
+    color: gray;
+}
+
+p{
+    color: pink;
+    background-color: cornsilk;
+}
+button{
+    background-color: black;
+    color: white;
+} */
+
+/* Practice */
+/* h2{
+    color: rgb(0,255,0);
+    color: #000000;
+    color: #ff00ff;
+    color: #ffffff;
+    background-color: #000000;
+}
+button{
+    background-color:rgb(255,25,0);
+    color: #fff;
+}
+p{
+    background-color: black;
+    color: white;
+} */
+ h1{
+    text-align: left;
+    text-align: start;
+    text-align: right;
+    text-align: end;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration:  wavy red underline;
+    font-family: avant grade sansrief;
+    
+ }
+ h2{
+    text-align: start;
+    text-align: right;
+    text-align: end;
+    font-weight: normal;
+    font-weight: 400;
+    text-decoration: blue overline;
+    text-decoration-style:double;
+    font-family: 'Gill Sans;
+ }
+ p{
+    /* text-align: justify;
+    font-weight: bold; */
+    line-height: normal;
+    letter-spacing: 1px;
+    font-size: 14px;
+ }
+ h3{
+    text-decoration: red line-through;
+  
+    text-align: end;
+ }
+a{
+    text-decoration: none;
+}

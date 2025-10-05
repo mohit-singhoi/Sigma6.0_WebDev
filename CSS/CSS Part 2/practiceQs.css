@@ -1,0 +1,54 @@
+/*Qns 1.*/
+/* h1{
+    color:pink;
+}
+#greet{
+    color: yellow;
+}
+.myclass{
+    color:brown;
+} */
+
+/*Qns 2.*/
+/* div p{
+
+    background-color: black; 
+}
+.para{
+
+    background-color: blue; 
+}
+
+p{
+    background-color: green; 
+} */
+
+/*Qns 3.*/
+div.greetDiv .greet{ 
+    /*sepcificity 0 2 1 (21) */
+    color:green
+}
+
+.greetDiv p.greet{
+     /*sepcificity 0 2 1  (21)*/
+    color:blue;
+}
+
+.greetDiv .greet{
+     /*sepcificity 0 2 0 (20) */
+    color:red
+}
+
+div{
+    background-color: yellow;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: blue;
+}
