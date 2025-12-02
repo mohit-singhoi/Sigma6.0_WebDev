@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main_box {
+    background: url("photo.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+/* Open button */
+.btn_one {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.btn_one i:hover {
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+/* Sidebar */
+.sidebar_menu {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease;
+}
+
+/* Logo — clean (NO shadow here) */
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    /* No shadow */
+}
+
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* Close button */
+.sidebar_menu .btn_two {
+    color: gray;
+    font-size: 25px;
+    position: absolute;
+    left: 260px;
+    top: 10px;
+    /* opacity: 0; */
+    cursor: pointer;
+}
+
+.btn_two i:hover {
+    font-size: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Menu list */
+.sidebar_menu .menu {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+}
+
+.sidebar_menu .menu ul {
+    list-style: none;
+    margin-top: 0px;
+}
+
+.sidebar_menu .menu li {
+    margin-top: 6px;
+    padding: 15px 30px;
+}
+
+.sidebar_menu .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar_menu .menu i {
+    padding-right: 8px;
+}
+
+/* Hover effect ONLY on list items */
+.sidebar_menu .menu li:hover {
+    width: 240px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+}
+
+/* Social icons */
+.sidebar_menu .social_media {
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+}
+
+.sidebar_menu .social_media i {
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* Checkbox */
+#check {
+    display: none;
+}
+
+/* When checked → sidebar opens */
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+
+#check:checked ~  .btn_one i {
+    opacity: 0;
+}
+
+
+
+#check:checked ~ .sidebar_menu .btn_two i{
+    opacity: 1;
+    /* transition: 0.5s; */
+}
