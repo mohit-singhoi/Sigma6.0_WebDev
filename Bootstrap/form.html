@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mini Project</title>
+
+
+    <!-- Roboto Font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> -->
+
+    <!-- Material Symbols -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" /> -->
+    <!-- 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+    <h1 style="margin-left: 20px;">Apni Kalam</h1>
+    <div class="container">
+        <h2>Demo Form</h2>
+        <form action="https://www.google.com">
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="email">Email :</label>
+                    <input type="text" class="form-control" placeholder="Enter your email" id="email">
+                </div>
+
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="password">Password :</label>
+                    <input type="text" class="form-control" placeholder="Enter your password" id="password">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="gender">Gender :</label>
+                    <select name="gender" id="gender" class="form-select">
+                        <option value="" disabled selected>Select your Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="city">City :</label>
+                    <select name="city" id="city" class="form-select">
+                        <option value="" disabled selected>Select your City</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="Noida">Noida</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+
+            <div class="mb-3">
+                <label class="form-label" for="address">Address :</label>
+                <input type="text" class="form-control-lg" placeholder="Enter your Full Address" id="address">
+            </div>
+
+            <div class="mb-3" class="form-check">
+                <input type="checkbox" class="form-check-input" id="agree">
+                <label class="form-label" for="agree">Agree to Terms and Conditions :</label>
+
+            </div>
+
+            <div class="mb-3" class="form-check">
+                <label class="form-label" for="radio">Yes/No :</label>
+                <input type="radio" class="form-check-input" id="radio" name="radioOptions" value="yes"> Yes
+                <input type="radio" class="form-check-input" id="radio" name="radioOptions" value="no"> No
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                <label class="form-check-label" for="switchCheckDefault">Default switch checkbox input</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- <span class="material-symbols-outlined">settings</span>
+    <span class="material-symbols-outlined">delete</span>
+    <span class="material-symbols-outlined">star</span>
+    <span class="material-symbols-outlined">circle</span>
+    <span class="material-symbols-outlined">search</span> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
