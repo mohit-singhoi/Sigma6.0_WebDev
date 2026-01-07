@@ -203,24 +203,76 @@ a {
     border-radius: 0.5rem;
 }
 
-.card-title{
+.card-title {
     font-weight: 600;
 }
-.card-info{
+
+.card-info {
     font-size: 0.8rem;
     opacity: 0.6;
 }
 
-.fotter{
+.fotter {
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.line{
+.line {
     width: 90%;
-    height: 50%;
+    height: 60%;
     border-top: 1px solid white;
     opacity: 0.4;
+}
+
+.music-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.album {
+    width: 25%;
+    /* background-color: pink; */
+}
+
+.player {
+    width: 50%;
+    /* background-color: orange; */
+}
+
+.player-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.controls {
+    width: 25%;
+    /* background-color: green; */
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+
+}
+
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.progress-range{
+    width: 70%;
 }
