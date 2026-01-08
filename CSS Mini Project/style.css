@@ -233,10 +233,15 @@ a {
 
 }
 
+/*1st Part */
+
 .album {
     width: 25%;
     /* background-color: pink; */
 }
+
+
+/*2nd Part */
 
 .player {
     width: 50%;
@@ -250,10 +255,6 @@ a {
 
 }
 
-.controls {
-    width: 25%;
-    /* background-color: green; */
-}
 
 .player-control-icon {
     height: 1rem;
@@ -275,4 +276,30 @@ a {
 
 .progress-range{
     width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-range::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius:100px ;
+    height: 0.2rem;
+}
+
+.progress-range::-webkit-slider-thumb{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+
+}
+
+/*Third Part */
+
+.controls {
+    width: 25%;
+    /* background-color: green; */
 }
