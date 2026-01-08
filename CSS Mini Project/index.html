@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <h1 style="color: bisque; text-align: center;">Hello, welcome to Music Dunia</h1>
+    <h1 style="color: bisque; text-align: center; ;">Hello, welcome to Music Dunia</h1>
     <div class="main">
         <div class="sidebar">
             <div class="nav">
@@ -143,25 +143,49 @@
 
         </div>
         <div class="music-player">
-            <div class="album"></div>
+            <!-- Left: Album -->
+            <div class="album">
+                <img src="/Assets/Songimg.png" alt="song" class="album-img">
+                <div class="song-info">
+                    <p class="para1">Daylight</p>
+                    <p class="para2">Arijit Singh</p>
+                </div>
+                <i class="fa-regular fa-heart song-icon"></i>
+                <i class="fa-regular fa-bookmark song-icon"></i>
+            </div>
+
+            <!-- Center: Player -->
             <div class="player">
                 <div class="player-control">
-                    <img src="./Assets/player_icon1.png" class="player-control-icon" alt="player_icon1">
-                    <img src="./Assets/player_icon2.png"  class="player-control-icon" alt="player_icon2">
-                    <img src="./Assets/player_icon3.png" class="player-control-icon" alt="player_icon3" style="opacity: 1; height: 2rem;">
-                    <img src="./Assets/player_icon4.png" class="player-control-icon" alt="player_icon4">
-                    <img src="./Assets/player_icon5.png" class="player-control-icon" alt="player_icon5">
-
+                    <img src="./Assets/player_icon1.png" class="player-control-icon">
+                    <img src="./Assets/player_icon2.png" class="player-control-icon">
+                    <img src="./Assets/player_icon3.png" class="player-control-icon main-play">
+                    <img src="./Assets/player_icon4.png" class="player-control-icon">
+                    <img src="./Assets/player_icon5.png" class="player-control-icon">
                 </div>
+
                 <div class="progress-bar">
-                    <span class="curr-time">00:00</span>
-                    <input type="range" min="0" max="100" value="0" class="progress-range" step="1">
-                    <span class="tot-time">04:36</span>
+                    <span class="curr-time">0:00</span>
+                    <input type="range" min="0" max="100" value="0" class="progress-range">
+                    <span class="tot-time">4:36</span>
                 </div>
-
             </div>
-            <div class="controls"></div>
+
+            <!-- Right: Controls -->
+            <div class="controls">
+                <i class="fa-regular fa-circle-play " class="control-icon"></i>
+                <i class="fa-regular fa-music-note" class="control-icon"></i>
+                <i class="fa-solid fa-link control-icon"></i>
+                <i class="fa-solid fa-list control-icon"></i>
+                <i class="fa-solid fa-computer control-icon"></i>
+                <i class="fa-solid fa-volume-high control-icon"></i>
+
+                <input type="range" min="0" max="100" value="70" class="volume-range">
+            </div>
+
+
         </div>
+
     </div>
 
 </body>
